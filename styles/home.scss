@@ -1,0 +1,27 @@
+.home-styles{
+    .bg{
+        background-image: url("../public/banner3.png");
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .btn-custom{
+        background-color: #366caf;
+        color: white;
+        border: none;
+        padding: 10px 50px 10px 50px;
+        border-radius: 25px;
+        font-weight: 400;
+    }
+
+    .btn-custom:hover{
+        transition-duration: 300ms;
+        background-color: #1c385b;
+    }
+}
