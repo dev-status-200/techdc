@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Cursor from "react-cursor-follow";
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap';
+import aos from 'aos';
+import 'aos/dist/aos.css'   ;
 
 const colors = [
   "#000000",
@@ -18,15 +20,22 @@ const colors = [
 export default function App() {
 
   const [i, setI] = useState(0);
+  const [load, setLoad] = useState(true);
   useEffect(() => {
+    aos.init({duration:500});
     setTimeout(() => {
       if (i === colors.length) setI(0);
       else setI(i + 1);
     }, 1000);
+    
+    setTimeout(() => {
+      setLoad(false)
+    }, 2000);
+
   }, [i]);
   return (
-    <div className="home-styles" style={{overflowX:'hidden', overflowY:'hidden'}}>
-      <div className="bg">
+    <div className="home-styles" style={{overflowX:'hidden', overflowY:'hidden'}} data-aos="flip-up">
+      {!load && <div className="bg" data-aos="fade-in">
       <Cursor hollow color={colors[i]} duration={0.8} size={45} />
       <Row style={{minHeight:'100vh'}}>
         <Col style={{padding:50}}>
@@ -49,6 +58,12 @@ export default function App() {
         <Col></Col>
       </Row>
       </div>
+      }
+      {load && 
+        <div style={{height:'90vh', overflowX:'hidden', textAlign:'center', padding:'18%'}}>
+          <img src='/loader.svg' height={100} />
+        </div>
+      }
     </div>
     
   );
