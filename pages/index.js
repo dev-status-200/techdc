@@ -74,7 +74,7 @@ useEffect(() => {
               <img src="/logo.png" style={{height:90}} />
             </Col>
             <Col  style={{paddingTop:10, paddingLeft:0, justifyContent:'center', alignContent:'center', alignItems:'center'}} md={2}>
-              <div style={{color:'#366caf', fontWeight:500, lineHeight:1.2}}>Technology Development Council</div>
+              <div style={{color:'#366caf', fontWeight:500, lineHeight:1.2}}></div>
             </Col>
           </Row>
           </div>
