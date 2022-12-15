@@ -71,7 +71,7 @@ useEffect(() => {
           <div>
           <Row>
             <Col  md={2} style={{ paddingLeft:30}}>
-              <img src="/logo.png" style={{height:90}} />
+              <img src="https://res.cloudinary.com/abdullah7c/image/upload/v1671107953/logo_kstq8f.png" style={{height:90}} />
             </Col>
             <Col  style={{paddingTop:10, paddingLeft:0, justifyContent:'center', alignContent:'center', alignItems:'center'}} md={2}>
               <div style={{color:'#366caf', fontWeight:500, lineHeight:1.2}}></div>
