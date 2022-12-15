@@ -102,7 +102,7 @@ useEffect(() => {
       <Row style={{minHeight:'100vh', width:'100vw'}}>
       </Row>
         <div className="text-bg">
-        <img src="/logo.png" style={{height:100, width:100}} />
+        <img src="https://res.cloudinary.com/abdullah7c/image/upload/v1671107953/logo_kstq8f.png" style={{height:100, width:100}} />
           <div className="mobile-heading">UNDER</div>
           <div className="mobile-heading">CONSTRUCTION</div>
           <button className="btn-custom my-5">Contact Us</button>
