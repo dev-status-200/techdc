@@ -1,0 +1,44 @@
+.header-styles{
+    .left-bg{
+        background-image: url("../public/vectors/svg1.png");
+        /* Full height */
+        height: 200%;
+        width: 130%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .info-left{
+        float: right;
+        margin-right: 50px;
+        position: relative;
+        top:20%;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: -0.5px;
+    }
+    .info-right{
+        float: right;
+        margin-right: 50px;
+        position: relative;
+        top:70%;
+        color: #212529;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
+    .custom-link{
+        text-decoration:none;
+        color:#29394d;
+        font-weight:600;
+    }
+    .custom-link-mobile{
+        text-decoration:none;
+        color:#29394d;
+        font-weight:600;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

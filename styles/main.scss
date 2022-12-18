@@ -1,4 +1,5 @@
 @import 'home.scss';
+@import 'header.scss';
 
 
 // Font Sizings 
@@ -9,13 +10,29 @@
 .f-25{ font-size: 25px!important; }
 .f-30{ font-size: 30px!important; }
 .f-35{ font-size: 35px!important; }
+.f-50{ font-size: 50px!important; }
+.f-70{ font-size: 70px!important; }
+
+.blue{ color: #376CAF; }
+.white{ color: #ffffff; }
+.black{ color: #29394d; }
+.green{ color: #13a89e !important; }
+.grey{ color: gray; }
+
+.f-w{
+  width:100%
+}
+
+html, body{
+  height:100%!important;
+  width: 100%;
+  font-family: 'Poppins', sans-serif!important;
+}
 
 .table-sm-1{
     max-height: 400px;
     overflow-y: auto;
 }
-
-
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -41,4 +58,83 @@
   
   .white{
     color: whitesmoke;
-}
+  }
+  .fr{
+    float: right;
+  }
+
+  .global-link{
+    text-decoration:none;
+    color:#1e579e;
+    font-weight:600;
+  }
+  .global-link:hover{
+    color:#1e579e;
+  }
+
+  .btn-custom-back-apply{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 10px;
+    position: absolute;
+    width: 600px;
+    height: 45px;
+  }
+
+  .btn-custom-top-apply{
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+    position: absolute;
+    left:1%;
+    top: 8%;
+    width: 600px;
+    height: 45px;
+    text-align: center;
+  }
+
+  .btn-custom-back-apply:hover > .btn-custom-top-apply{
+    transition-duration: 200ms;
+    background-color: rgb(45, 45, 45);
+    left:0%;
+    top: 0%;
+  }
+
+  .btn-custom{
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .btn-custom-back{
+    background-color: #376baf81;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .btn-custom-top{
+    padding: 12px;
+    text-align: center;
+    background-color: #376baf;
+    position: relative;
+    top: -57px;
+    left: -7px;
+  }
+  .btn-custom:hover > .btn-custom-back{
+    transition-duration: 300ms;
+    top: -3px;
+    left: -3px;
+  }
+  .btn-custom:hover > .btn-custom-top{
+    transition-duration: 300ms;
+    background-color: #36a99c;
+    top: -53px;
+    left: -4px;
+  }
+
+  .icon{
+    background-color: #13a89e;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 100px;
+  }

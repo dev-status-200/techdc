@@ -19,6 +19,7 @@
     "react-bootstrap": "^2.5.0",
     "react-cursor-follow": "^2.0.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
     "sass": "^1.56.0",
     "scss": "^0.2.4"
   }

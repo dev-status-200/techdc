@@ -1,43 +1,101 @@
 .home-styles{
-    .bg{
-        background-image: url("../public/banner3.png");
+   .bg{
+    background-color: #f7f7f7;
+   }
+   .main-head{
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -3px;
+   }
 
-        /* Full height */
-        height: 100%;
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+   .hero-left{
+    margin-left: 260px;
+    margin-top: 90px;
+   }
 
-    .btn-custom{
-        background-color: #366caf;
-        color: white;
-        border: none;
-        padding: 10px 50px 10px 50px;
-        border-radius: 25px;
-        font-weight: 400;
-    }
+   .hero-cntn{
+    font-size: 22px;
+    font-weight: 600;
+   }
 
-    .btn-custom:hover{
-        transition-duration: 300ms;
-        background-color: #1c385b;
-    }
-    .mobile-heading{
-        font-weight: 500;
-        color: #366caf;
-        text-shadow: -2px 4px 3px rgba(247, 247, 247, 0.99);
-        line-height: 1.1;
-        font-size:45px;
-    }
+   // =====================================   Slider   =====================================
+   .slider-container{
+      position: relative;
+      top: -120px;
+   }
+   .sliding-background {
+      background: url("../public/home/slider1.png") repeat-x;
+      height: 300px;
+      width: 5076px;
+      animation: slide 60s linear infinite;
+   }
+   @keyframes slide{
+      0% {
+         transform: translate3d(0, 0, 0);
+      }
+      100% {
+         transform: translate3d(-1692px, 0, 0);
+      }
+   }
+   
+   // =====================================   groom   =====================================
+   .groom{
+      margin: 10px;
+      background-color: #ffffff;
+      padding: 50px;
+      text-align: center;
+   }
+   .floating{
+      position: absolute;
+      top: 500px;
+      right: 15%;
+      max-width: 600px;
+      padding-top: 30px;
+      box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
+      -moz-box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
+   }
 
-    .text-bg{
-        position:absolute;
-        top:0%;
-        width:100%;
-        text-align:center;
-        background-color:rgba(255, 255, 255, 0.692);
-        height:100%;
-        padding-top:50%;
+   .bg-highlight {
+      position: relative;
+      font-weight: 500;
+      font-size: 20px;
+      color: rgb(32, 89, 169);
+      letter-spacing: 4px;
     }
+    
+    .bg-highlight::before {
+      /* Highlight color */
+      background-color: #74a8d57c!important;
+    
+      content: ""!important;
+      position: absolute!important;
+      width: calc(100% + 3px)!important;
+      height: 30%!important;
+      top: 17px;
+      left: -2px!important;
+      bottom: 0!important;
+      z-index: -1!important;
+   }
+
+   .service-bg{
+      background-color: rgba(192, 192, 192, 0.361);
+      border-top: 10px solid rgba(192, 192, 192, 0.258);
+      border-bottom: 10px solid rgba(192, 192, 192, 0.258);
+      padding: 30px;
+   }
+
+   .trainings-bg{
+      background: url("../public/home/trainings4.png");
+      position: relative;
+      top: -100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .trainings-bg-2{
+      background: url("../public/home/trainings-mobile-2.png");
+      position: relative;
+      top: -150px;
+      background-repeat: no-repeat;
+   }
 }
