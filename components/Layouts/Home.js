@@ -53,16 +53,17 @@ const Home = () => {
             From training to getting a ticket of proving yourself in technical industry to manage your higher-studies
             expenses with manageable schedule to your technical-recruitment in well-known organizations, TechDC has you covered.
           </p>
+          <div style={{minHeight:200}}></div>
         </div>
       </Col>
       {width>400&&
       <Col md={6}>
-        <img src="/home/hero.GIF" className={'fr'} />
+        <img src="/home/hero.gif" className={'fr'} />
       </Col>
       }
       {width<400&&
       <Col xs={12}>
-        <img src="/home/hero.GIF" style={{width:'100%'}} />
+        <img src="/home/hero.gif" style={{width:'100%'}} />
       </Col>
       }
       </Row>
