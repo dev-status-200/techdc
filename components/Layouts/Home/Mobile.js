@@ -123,8 +123,8 @@ const Mobile = () => {
           <Row className=''>
           <Col xs={12}>
               <div className='text-center'>
-                  <img src="/home/st-pt-logo.JPG" className='' height={120} />
-                  <img src="/home/hamdard.JPG" className='' height={120} />
+                  <img src="/home/st-pt-logo.jpg" className='' height={120} />
+                  <img src="/home/hamdard.jpg" className='' height={120} />
               </div>
           </Col>
           </Row>

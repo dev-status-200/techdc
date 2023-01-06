@@ -163,8 +163,8 @@ const Desktop = () => {
         <Row className='py-4'>
         <Col md={12}>
             <div className='text-center'>
-                <img src="/home/st-pt-logo.JPG" className='' height={170} />
-                <img src="/home/hamdard.JPG" className='' height={170} />
+                <img src="/home/st-pt-logo.jpg" className='' height={170} />
+                <img src="/home/hamdard.jpg" className='' height={170} />
             </div>
         </Col>
         </Row>
