@@ -3,7 +3,7 @@ import '../styles/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/Shared/Header';
 import 'aos/dist/aos.css';
-
+import Footer from '../components/Shared/Footer';
 
 function MyApp({ Component, pageProps }) {
 
@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Header/>
     <Component {...pageProps} />
+    <Footer/>
     </>
   ) 
 }

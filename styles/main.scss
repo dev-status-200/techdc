@@ -1,5 +1,6 @@
 @import 'home.scss';
 @import 'header.scss';
+@import 'FooterStyles.scss';
 
 
 // Font Sizings 
@@ -12,6 +13,8 @@
 .f-35{ font-size: 35px!important; }
 .f-50{ font-size: 50px!important; }
 .f-70{ font-size: 70px!important; }
+
+.fw-700{font-family: 700;}
 
 .blue{ color: #376CAF; }
 .white{ color: #ffffff; }
@@ -27,6 +30,15 @@ html, body{
   height:100%!important;
   width: 100%;
   font-family: 'Poppins', sans-serif!important;
+}
+
+@media screen and (max-width: 480px) {
+  .desktop{ display: none; }
+  .mobile{ display: block; }
+}
+@media screen and (min-width: 478px) {
+  .desktop{ display: block; }
+  .mobile{ display: none; }
 }
 
 .table-sm-1{
@@ -137,4 +149,10 @@ html, body{
     color: #ffffff;
     padding: 10px;
     border-radius: 100px;
+  }
+
+  .mobile-btn{
+    background-color: #13171c;
+    white-space: nowrap;
+    padding: 10px;
   }

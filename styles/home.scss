@@ -29,6 +29,7 @@
       width: 5076px;
       animation: slide 60s linear infinite;
    }
+   
    @keyframes slide{
       0% {
          transform: translate3d(0, 0, 0);
@@ -56,19 +57,19 @@
       -webkit-box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
       -moz-box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
    }
-
+   
    .bg-highlight {
       position: relative;
       font-weight: 500;
       font-size: 20px;
       color: rgb(32, 89, 169);
       letter-spacing: 4px;
-    }
-    
-    .bg-highlight::before {
+   }
+   
+   .bg-highlight::before {
       /* Highlight color */
       background-color: #74a8d57c!important;
-    
+      
       content: ""!important;
       position: absolute!important;
       width: calc(100% + 3px)!important;
@@ -78,25 +79,48 @@
       bottom: 0!important;
       z-index: -1!important;
    }
-
+   
    .service-bg{
-      background-color: rgba(192, 192, 192, 0.361);
-      border-top: 10px solid rgba(192, 192, 192, 0.258);
-      border-bottom: 10px solid rgba(192, 192, 192, 0.258);
-      padding: 30px;
+      background-color: rgb(232, 232, 232);
+      padding-top: 50px;
+      padding-bottom: 20px;
    }
-
    .trainings-bg{
-      background: url("../public/home/trainings4.png");
-      position: relative;
-      top: -100px;
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-color: rgb(30, 30, 30);
    }
-   .trainings-bg-2{
-      background: url("../public/home/trainings-mobile-2.png");
-      position: relative;
-      top: -150px;
-      background-repeat: no-repeat;
+   
+   .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 88%;
    }
-}
+   
+   .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .count-section{
+       background-color: #366caf;
+       padding: 50px 200px 50px 200px;
+      }
+    .count-section-mobile{
+       background-color: #366caf;
+      }
+      
+      .testimonials-bg {
+         background: url("../public/home/testimonials-bg.png");
+         background-size: cover;
+         height: 80vh;
+         padding: 70px;
+      }
+      .shadow{
+         box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.75);
+         -webkit-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.75);
+         -moz-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.75);
+      }   
+      .trainings-mobile {
+         background: url("../public/home/trainings-mobile.png");
+         background-size: cover;
+         padding-top:130px;
+      }
+   }

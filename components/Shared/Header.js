@@ -14,6 +14,7 @@ const Header = () => {
       }, [width]);
 
     const [load, setLoad] = useState(true);
+    
     useEffect(() => {
       Aos.init({duration:300});
       setTimeout(() => {
@@ -31,8 +32,8 @@ const Header = () => {
     <>
     {!load &&
     <div className='header-styles' data-aos="fade-down">
-    {width>400 &&
-      <div>
+
+      <div className='desktop'>
       <Row className='mb-4 f-w'>
         <Col md={4} xs={12}>
             <div className='left-bg'>
@@ -45,7 +46,7 @@ const Header = () => {
         </Col>
       </Row>
       </div>
-    }
+
     <Navbar bg="white" expand="lg">
       <Container fluid>
         <Navbar.Brand href="/" className='mx-4'>
