@@ -68,7 +68,7 @@ const Desktop = () => {
               </Col>
               <Col md={4}>
                 <div style={{float:'right'}}>
-                  <img src={'/people/chairman-techdc.JPG'}   />
+                  <img src={'/people/chairman-techdc.jpg'}   />
                   <div className='blue mt-3'>
                     <strong>Mr. Brig. {"("}Retd{")"} Tariq Hussain Khan</strong>
                   </div>
@@ -97,7 +97,7 @@ const Desktop = () => {
                   <p className='grey my-3'>So far, one of the two biggest clients of TechDC is <strong>Hamdard University</strong> and <strong>Saint Patrick{"’"}s Institute of Science & Technology</strong>. Our both corporate clients endorse our training and development services as the best and mandatory for our technical youth.</p>
                 </Col>
                 <Col md={4}>
-                  <img src={'/shared/techdc-client-organizations.JPG'} />
+                  <img src={'/shared/techdc-client-organizations.jpg'} />
                 </Col>
               </Row>
             </Container>
@@ -110,7 +110,7 @@ const Desktop = () => {
                 <h1 className='mb-4'><strong>Board Members</strong></h1>
               </div>
               <Col md={4}>
-                <img src={'/people/col-wali-techdc.JPG'} />
+                <img src={'/people/col-wali-techdc.jpg'} />
                 <p className='f-18'>
                 <strong>
                   Professor Colonel {"("}R{")"} Muhammad Wali Khan Durrani
@@ -120,7 +120,7 @@ const Desktop = () => {
                 <a className='blue' style={{textDecoration:'none'}}>walidurrani@techdc.org</a>
               </Col>
               <Col md={4}>
-                <img src={'/people/momerkhan-techdc.JPG'} />
+                <img src={'/people/momerkhan-techdc.jpg'} />
                 <p className='f-18'>
                 <strong>
                   Mr. Muhammad Omer Khan
@@ -130,7 +130,7 @@ const Desktop = () => {
                 <a className='blue' style={{textDecoration:'none'}}>omer.khan@techdc.org</a>
               </Col>
                 <Col md={4}>
-                  <img src={'/people/muhammad-zafar-techdc.JPG'} />
+                  <img src={'/people/muhammad-zafar-techdc.jpg'} />
                   <p className='f-18'>
                 <strong>
                 Mr. Syed Muhammad Zafar
@@ -149,7 +149,7 @@ const Desktop = () => {
               </div>
               <Col md={4}>
                 <div className='img-hover-zoom'>
-                <img src={'/people/ammash-techdcc.JPG'} />
+                <img src={'/people/ammash-techdcc.jpg'} />
                 </div>
                 <div className='img-attr'>
                 <span className='img-name'>Muhammad Amash</span><br/>
@@ -158,7 +158,7 @@ const Desktop = () => {
               </Col>
               <Col md={4}>
                 <div className='img-hover-zoom'>
-                <img src={'/people/ali-techdc.JPG'} />
+                <img src={'/people/ali-techdc.jpg'} />
                 </div>
                 <div className='img-attr'>
                 <span className='img-name px-5'>Ali Munir</span><br/>
@@ -167,7 +167,7 @@ const Desktop = () => {
               </Col>
                 <Col md={4}>
                 <div className='img-hover-zoom'>
-                  <img src={'/people/Aijaz-baig-techdc.JPG'} />
+                  <img src={'/people/Aijaz-baig-techdc.jpg'} />
                 </div>
                 <div className='img-attr'>
                 <span className='img-name px-5'>Aijaz Baig</span><br/>
@@ -176,7 +176,7 @@ const Desktop = () => {
                 </Col>
                 <Col md={4}>
                 <div className='img-hover-zoom'>
-                  <img src={'/people/hareem-techdc.JPG'} />
+                  <img src={'/people/hareem-techdc.jpg'} />
                 </div>
                 <div className='img-attr'>
                 <span className='img-name'>Hareem Fatima</span><br/>
@@ -185,7 +185,7 @@ const Desktop = () => {
                 </Col>
                 <Col md={4}>
                 <div className='img-hover-zoom'>
-                  <img src={'/people/ebad-techdc.JPG'} />
+                  <img src={'/people/ebad-techdc.jpg'} />
                 </div>
                 <div className='img-attr'>
                 <span className='img-name px-5'>Ebad Khan</span><br/>
