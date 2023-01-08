@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import About from '../components/Layouts/About'
 
 const about = () => {
   return (
-    <div>about</div>
+    <About/>
   )
 }
 

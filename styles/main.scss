@@ -1,12 +1,15 @@
 @import 'home.scss';
 @import 'header.scss';
+@import 'shared.scss';
 @import 'FooterStyles.scss';
 
 
 // Font Sizings 
 .f-5{ font-size: 5px!important; }
 .f-10{ font-size: 10px!important; }
+.f-12{ font-size: 12px!important; }
 .f-15{ font-size: 15px!important; }
+.f-18{ font-size: 18px!important; }
 .f-20{ font-size: 20px!important; }
 .f-25{ font-size: 25px!important; }
 .f-30{ font-size: 30px!important; }
@@ -21,6 +24,8 @@
 .black{ color: #29394d; }
 .green{ color: #13a89e !important; }
 .grey{ color: gray; }
+
+.grey-bg{ background-color: rgb(234, 234, 234); }
 
 .f-w{
   width:100%
@@ -156,3 +161,91 @@ html, body{
     white-space: nowrap;
     padding: 10px;
   }
+
+  .bg-highlight {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(32, 89, 169);
+    letter-spacing: 4px;
+ }
+ 
+ .bg-highlight::before {
+    /* Highlight color */
+    background-color: #74a8d57c!important;
+    
+    content: ""!important;
+    position: absolute!important;
+    width: calc(100% + 3px)!important;
+    height: 30%!important;
+    top: 17px;
+    left: -2px!important;
+    bottom: 0!important;
+    z-index: -1!important;
+ }
+
+ .img-hover-zoom {
+  width: 333px; /* [1.1] Set it as per your need */
+  height: 333px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.img-name{
+  background-color: #13171cd2;
+  color: white;
+  padding: 15px;
+  z-index: 1;
+}
+.img-desig{
+  background-color: #275996d2;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  left: 10px;
+  padding: 5px;
+}
+
+.img-attr{
+  position: relative;
+  bottom: 80px;
+
+}
+
+.img-name-mobile{
+  background-color: #13171cd2;
+  color: white;
+  padding: 15px;
+  z-index: 1;
+}
+.img-desig-mobile{
+  background-color: #275996d2;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  padding: 5px;
+}
+
+.img-attr-mobile{
+  position: relative;
+  bottom: 80px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .3s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.bullet-service{
+  padding: 20px 50px 20px 50px;
+  background-color: rgb(234, 234, 234);
+
+}
+
+.border-trainings{
+  border: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+}

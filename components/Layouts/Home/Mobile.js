@@ -142,7 +142,7 @@ const Mobile = () => {
           <Row className=''>
           <Col xs={12} className="my-4" data-aos="flip-left">
             <div className="card mx-4">
-              <img src="/home/events-2.png" alt="Avatar" height={220} width={330}/>
+              <img src="/home/events-2.png" alt="Avatar"  style={{width:'100%', height:220}} />
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
@@ -152,7 +152,7 @@ const Mobile = () => {
           </Col>
           <Col xs={12} className="my-4" data-aos="flip-left">
             <div className="card mx-4">
-            <img src="/home/events-3.png" alt="Avatar" height={220} width={330}/>
+            <img src="/home/events-3.png" alt="Avatar" style={{width:'100%', height:220}} />
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing between TechDC & Hamdard University</p> 
@@ -162,7 +162,7 @@ const Mobile = () => {
           </Col>
           <Col xs={12} className="my-4" data-aos="flip-left">
             <div className="card mx-4">
-            <img src="/home/events-4.png" alt="Avatar" height={220} width={330}/>
+            <img src="/home/events-4.png" alt="Avatar" style={{width:'100%', height:220}} />
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>TechDC Career Fair at Expo as Technical Learning Partner</p> 
@@ -172,7 +172,7 @@ const Mobile = () => {
           </Col>
           <Col xs={12} className="my-4" data-aos="flip-left">
             <div className="card mx-4">
-            <img src="/home/events-1.png" alt="Avatar" height={220} width={330}/>
+            <img src="/home/events-1.png" alt="Avatar" style={{width:'100%', height:220}} />
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
@@ -209,7 +209,7 @@ const Mobile = () => {
       </Container>
   
       <div style={{backgroundColor:'silver', padding:20}} className="text-center" data-aos="fade-in">    
-        <div className='bg-highlight'>TESTIMONIALS</div>
+        <div className='blue my-3'><strong>TESTIMONIALS</strong></div>
         <h1 className=''><strong>What People Say</strong></h1>
         <Container className=' my-4'>
         <div style={{backgroundColor:'white'}} className="shadow py-5">

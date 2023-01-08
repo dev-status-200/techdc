@@ -58,27 +58,7 @@
       -moz-box-shadow: 10px 10px 35px -14px rgba(0,0,0,0.75);
    }
    
-   .bg-highlight {
-      position: relative;
-      font-weight: 500;
-      font-size: 20px;
-      color: rgb(32, 89, 169);
-      letter-spacing: 4px;
-   }
-   
-   .bg-highlight::before {
-      /* Highlight color */
-      background-color: #74a8d57c!important;
-      
-      content: ""!important;
-      position: absolute!important;
-      width: calc(100% + 3px)!important;
-      height: 30%!important;
-      top: 17px;
-      left: -2px!important;
-      bottom: 0!important;
-      z-index: -1!important;
-   }
+
    
    .service-bg{
       background-color: rgb(232, 232, 232);

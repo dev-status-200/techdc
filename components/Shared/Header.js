@@ -58,8 +58,8 @@ const Header = () => {
           <Nav>
             <Link href={'/'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Home</Link>
             <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>About Us</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Our Services</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Trainings</Link>
+            <Link href={'/service'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Our Services</Link>
+            <Link href={'/trainings'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Trainings</Link>
             <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Academic Partners</Link>
             <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Center Of Excellence</Link>
             <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Events</Link>
