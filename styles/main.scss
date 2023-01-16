@@ -17,6 +17,14 @@
 .f-50{ font-size: 50px!important; }
 .f-70{ font-size: 70px!important; }
 
+.f-100{ font-weight: 100; }
+.f-200{ font-weight: 200; }
+.f-300{ font-weight: 300; }
+.f-400{ font-weight: 400; }
+.f-500{ font-weight: 500; }
+.f-600{ font-weight: 600; }
+.f-700{ font-weight: 700; }
+
 .fw-700{font-family: 700;}
 
 .blue{ color: #376CAF; }
@@ -25,10 +33,40 @@
 .green{ color: #13a89e !important; }
 .grey{ color: gray; }
 
+.dark-blue-bg{ background-color: #376CAF !important; }
+.green-box{ background-color: #13a89e !important; }
 .grey-bg{ background-color: rgb(234, 234, 234); }
+.black-bg{ background-color: #071627; }
+.white-bg{ background-color: #ffffff; }
 
+.shadow{
+  box-shadow: 15px 15px 10px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 15px 15px 10px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 15px 15px 10px -4px rgba(0,0,0,0.75);
+}
+
+.f-i{
+  font-style: italic;
+}
+.l-s{ letter-spacing: 0.01px; }
 .f-w{
   width:100%
+}
+.event-card{ cursor: pointer; }
+.event-card:hover > .card-heading{
+  color: #1e579e;
+}
+
+.view-btn{
+  background-color: #13a89e;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+}
+.view-btn:hover{
+  background-color: #097b74;
+  color: rgb(254, 254, 254);
 }
 
 html, body{
@@ -248,4 +286,17 @@ html, body{
 .border-trainings{
   border: 1px solid rgb(224, 224, 224);
   padding: 10px;
+}
+
+.custom-form{
+  border: 1px solid rgba(192, 192, 192, 0.163);
+  background-color: #071627;
+  color: white;
+  padding: 10px;
+}
+.custom-form:active{
+  border: none;
+}
+.custom-form::placeholder{
+  color: white;
 }

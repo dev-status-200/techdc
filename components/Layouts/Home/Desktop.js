@@ -184,7 +184,7 @@ const Desktop = () => {
                 <div className="p-3">
                     <h6><>Event</></h6> 
                     <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
-                <Link className='my-3' href="/">View</Link>
+                <Link className='my-3 view-btn' href="/events">View</Link>
                 </div>
                 </div>
                 </Col>
@@ -193,8 +193,8 @@ const Desktop = () => {
                 <img src="/home/events-3.png" alt="Avatar" height={170} width={230}/>
                 <div className="p-3">
                     <h6><>Event</></h6> 
-                    <p className='fw-700'>MOU signing between TechDC & Hamdard University</p> 
-                    <Link className='my-3' href="/">View</Link>
+                    <p className='fw-700' style={{fontWeight:800}}>MOU signing between TechDC & Hamdard University</p> 
+                    <Link className='my-3 view-btn' href="/events">View</Link>
                 </div>
                 </div>
                 </Col>
@@ -203,9 +203,9 @@ const Desktop = () => {
                 <img src="/home/events-4.png" alt="Avatar" height={170} width={230}/>
                 <div className="p-3">
                     <h6><>Event</></h6> 
-                    <p className='fw-700'>Event
-                        TechDC Career Fair at Expo as Technical Learning Partner</p> 
-                    <Link className='my-3' href="/">View</Link>
+                    <p className='fw-700' style={{fontWeight:800}}>Event
+                        TechDC Fair at Expo as Technical Learning Partner</p> 
+                    <Link className='my-3 view-btn' href="/events">View</Link>
                 </div>
                 </div>
                 </Col>
@@ -214,8 +214,8 @@ const Desktop = () => {
                 <img src="/home/events-1.png" alt="Avatar" height={170} width={230}/>
                 <div className="p-3">
                     <h6><>Event</></h6> 
-                    <p className='fw-700'>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
-                    <Link className='my-3' href="/">View</Link>
+                    <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
+                    <Link className='my-3 view-btn' href="/events">View</Link>
                 </div>
                 </div>
                 </Col>
@@ -264,11 +264,11 @@ const Desktop = () => {
     }
     {
       load && 
-      <div style={{ overflowX:'hidden', textAlign:'center', marginTop:'20%'}} data-aos="fade-up">
+      <div style={{ overflowX:'hidden', overflowY:'hidden', textAlign:'center', padding:'20%'}} data-aos="fade-up">
           <img src='/loader.svg' height={100}  />
       </div>
     }
-    {width>400 && <Cursor style={{zIndex:1}} hollow color={'rgb(32, 89, 169)'} duration={0.8} size={45} />}
+    <Cursor style={{zIndex:1}} hollow color={'rgb(32, 89, 169)'} duration={0.8} size={45} />
     </>
   )
 }

@@ -60,10 +60,10 @@ const Header = () => {
             <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>About Us</Link>
             <Link href={'/service'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Our Services</Link>
             <Link href={'/trainings'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Trainings</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Academic Partners</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Center Of Excellence</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Events</Link>
-            <Link href={'/about'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Contact</Link>
+            <Link href={'/academicPartners'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Academic Partners</Link>
+            <Link href={'/centerOfExcellence'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Center Of Excellence</Link>
+            <Link href={'/events'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Events</Link>
+            <Link href={'/contact'} className={width>400?'custom-link mx-3':'custom-link-mobile'}>Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

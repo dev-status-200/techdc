@@ -146,7 +146,7 @@ const Mobile = () => {
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
-              <Link className='my-3' href="/">View</Link>
+              <Link className='my-3 view-btn' href="/events">View</Link>
               </div>
             </div>
           </Col>
@@ -156,7 +156,7 @@ const Mobile = () => {
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing between TechDC & Hamdard University</p> 
-              <Link className='my-3' href="/">View</Link>
+              <Link className='my-3 view-btn' href="/events">View</Link>
               </div>
             </div>
           </Col>
@@ -166,7 +166,7 @@ const Mobile = () => {
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>TechDC Career Fair at Expo as Technical Learning Partner</p> 
-              <Link className='my-3' href="/">View</Link>
+              <Link className='my-3 view-btn' href="/events">View</Link>
               </div>
             </div>
           </Col>
@@ -176,7 +176,7 @@ const Mobile = () => {
               <div className="p-3">
                   <h6><>Event</></h6> 
                   <p className='fw-700' style={{fontWeight:800}}>MOU signing with St. Patrick’s Institute of Science & Technology</p> 
-              <Link className='my-3' href="/">View</Link>
+              <Link className='my-3 view-btn' href="/events">View</Link>
               </div>
             </div>
           </Col>
