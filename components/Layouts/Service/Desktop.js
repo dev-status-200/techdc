@@ -84,8 +84,8 @@ const Desktop = () => {
               <BiPhoneCall/>
               <span className='mx-2'>+9231 3269 0927</span>
               </div>
-              <div className="my-5">
-              <ButtonCustom onClick={()=>Router.push("/contact")} title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
+              <div className="my-5" onClick={()=>Router.push("/contact")}>
+              <ButtonCustom  title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
               </div>
               <hr/>
               </Col>

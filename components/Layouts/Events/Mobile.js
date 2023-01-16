@@ -111,15 +111,15 @@ const Mobile = () => {
             <h1 className='blue py-5 my-5'><strong>News and Events</strong></h1>
           </div>
         <Container className='my-5'>
-          <Row className='px-1'>
+          <Row className=''>
             {
               data.map((x, i)=>{
                 return(
-                  <Col key={i} md={4} className="my-3 event-card" data-aos="fade-in">
-                    <img src={`events/${x.image}.jpg`} height={270} />
+                  <Col key={i} md={4} className="my-3 event-card text-center" data-aos="fade-in">
+                    <img src={`events/${x.image}.jpg`} height={260} />
                     <div className='grey f-12 my-2'>{x.date}</div>
                     <h5 className='f-700 my-3 card-heading'>{x.title}</h5>
-                    <p className='grey f-15 my-2 f-300' style={{paddingRight:50}}>{x.desc}</p>
+                    <p className='grey f-15 my-2 f-300'>{x.desc}</p>
                   </Col>
                 )
               })

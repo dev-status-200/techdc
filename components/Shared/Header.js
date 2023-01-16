@@ -33,19 +33,27 @@ const Header = () => {
     {!load &&
     <div className='header-styles' data-aos="fade-down">
 
-      <div className='desktop'>
-      <Row className='mb-4 f-w'>
-        <Col md={4} xs={12}>
-            <div className='left-bg'>
-                <span className='info-left'>info@tech-dc.org</span>
-                <span className='info-left'>UAN: +92 313 2690 927</span>
-            </div>
-        </Col>
-        <Col md={6} xs={12}>
-            <span className='info-right'>Mon - Sat 10:00am - 10:00pm / Sunday - CLOSED</span>
-        </Col>
-      </Row>
+    <div className='desktop'>
+    <Row className='mb-4 f-w'>
+      <Col md={4} xs={12}>
+          <div className='left-bg'>
+              <span className='info-left'>info@tech-dc.org</span>
+              <span className='info-left'>UAN: +92 313 2690 927</span>
+          </div>
+      </Col>
+      <Col md={6} xs={12}>
+          <span className='info-right'>Mon - Sat 10:00am - 10:00pm / Sunday - CLOSED</span>
+      </Col>
+    </Row>
+    </div>
+
+    <div className='mobile'>
+      <div className='blue-bg'>
+        <span className='white f-12'>info@tech-dc.org</span>
+        <span className='white mt-1 f-12' style={{float:'right'}}>UAN: +92 313 2690 927</span>
       </div>
+      <div className='f-12 text-center'>Mon - Sat 10:00am - 10:00pm / Sunday - CLOSED</div>
+    </div>
 
     <Navbar bg="white" expand="lg">
       <Container fluid>

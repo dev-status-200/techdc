@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import Link from 'next/link';
-import Button from '../../Shared/Button';
-import { AiFillCheckCircle } from "react-icons/ai";
-import { GrCheckmark } from "react-icons/gr";
-import { SiExpertsexchange } from "react-icons/si";
 import Aos from 'aos';
-import Cursor from "react-cursor-follow";
 import CountUp from 'react-countup';
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 

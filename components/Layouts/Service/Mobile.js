@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Cursor from "react-cursor-follow";
 import Aos from 'aos';
-import CountUp from 'react-countup';
 import ButtonCustom from '../../Shared/ButtonCustom';
 import { BiPhoneCall } from "react-icons/bi";
+import Router from 'next/router';
 
 const Mobile = () => {
   const [width, setWidth] = useState(0);
@@ -84,8 +83,8 @@ const Mobile = () => {
               <BiPhoneCall/>
               <span className='mx-2'>+9231 3269 0927</span>
               </div>
-              <div className="my-5">
-              <ButtonCustom onClick={()=>Router.push("/contact")} title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
+              <div className="my-5" onClick={()=>Router.push("/contact")}>
+              <ButtonCustom title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
               </div>
               <hr/>
               </Col>
@@ -101,7 +100,6 @@ const Mobile = () => {
           <img src='/loader.svg' height={100}  />
       </div>
       }
-      <Cursor style={{zIndex:1}} hollow color={'rgb(32, 89, 169)'} duration={0.8} size={45} />
     </div>
   )
 }

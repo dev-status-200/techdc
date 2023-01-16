@@ -47,7 +47,7 @@ const Mobile = () => {
 
               <Col xs={12}>
                 <div data-aos="fade-down-left"></div>
-                <img className=' my-5' src={'shared/academic-img.PNG'} height={250} data-aos="fade-left" />
+                <img className=' my-5' src={'shared/academic-img.PNG'} height={250} data-aos="fade-up " />
               </Col>
             </Row>
 
@@ -83,7 +83,7 @@ const Mobile = () => {
             <Container fluid className='text-center'>
                 <Row>
                     <Col>
-                        <h2 className='f-i  f-700 l-s'>Hamdard University & TechDC</h2>
+                        <h2 className='f-i f-700 l-s'>Hamdard University & TechDC</h2>
                         <ul className='grey my-5'>
                             <li>TechDC signed the MoU with HU on 27th January 2020.</li>
                             <li>Right now, TechDC has enrolled over 300 technologists at Hamdard University’s BSc Mechanical/Civil/Electrical Engineering Technologies.</li>
@@ -98,8 +98,8 @@ const Mobile = () => {
                             <li>Dean FEST Dr. Anwar Manzar {"("}TI{")"}</li>
                         </ul>
                     </Col>
-                    <Col className=''>
-                        <img src={'shared/sign.PNG'} width={380}  />
+                    <Col >
+                        <img src={'shared/sign.PNG'} width={200}  />
                     </Col>
                 </Row>
             </Container>

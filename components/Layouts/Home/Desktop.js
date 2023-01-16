@@ -85,7 +85,9 @@ const Desktop = () => {
             aims to maintain the internationally recognized standards of professional capability and morals which rule the award and preservation of these titles. To make sure that students, employers, government, and broader society can have assurance in the knowledge, skills, and assurance of professionally trained engineering technicians and technologists.
         </p>
         <div className='my-5'></div>
-        <Button title={'Read More'} width={150} onClick={()=>Router.push("/about")} />
+        <div onClick={()=>Router.push("/about")}>
+            <Button title={'Read More'} width={150}  />
+        </div>
         </Col>
     </Row>
     </Container>
@@ -102,7 +104,7 @@ const Desktop = () => {
             <Col></Col>
             <Col></Col>
             <Col></Col>
-            <Col><Button title={'Read More'} width={150} onClick={()=>Router.push("/service")} /></Col>
+            <Col onClick={()=>Router.push("/service")}><Button title={'Read More'} width={150} /></Col>
             <Col></Col>
             <Col></Col>
             <Col></Col>
