@@ -116,7 +116,7 @@ const Mobile = () => {
               data.map((x, i)=>{
                 return(
                   <Col key={i} md={4} className="my-3 event-card" data-aos="fade-in">
-                    <img src={`events/${x.image}.JPG`} height={270} />
+                    <img src={`events/${x.image}.jpg`} height={270} />
                     <div className='grey f-12 my-2'>{x.date}</div>
                     <h5 className='f-700 my-3 card-heading'>{x.title}</h5>
                     <p className='grey f-15 my-2 f-300' style={{paddingRight:50}}>{x.desc}</p>

@@ -47,7 +47,7 @@ const Mobile = () => {
 
               <Col xs={12}>
                 <div data-aos="fade-down-left"></div>
-                <img className=' my-5' src={'shared/academic-img.png'} height={250} data-aos="fade-left" />
+                <img className=' my-5' src={'shared/academic-img.PNG'} height={250} data-aos="fade-left" />
               </Col>
             </Row>
 
@@ -99,7 +99,7 @@ const Mobile = () => {
                         </ul>
                     </Col>
                     <Col className=''>
-                        <img src={'shared/sign.png'} width={380}  />
+                        <img src={'shared/sign.PNG'} width={380}  />
                     </Col>
                 </Row>
             </Container>

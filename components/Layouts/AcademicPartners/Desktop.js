@@ -46,7 +46,7 @@ const Desktop = () => {
 
               <Col md={6}>
                 <div data-aos="fade-down-left"></div>
-                <img className='mx-5 my-5' src={'shared/academic-img.png'} height={400} data-aos="fade-left" />
+                <img className='mx-5 my-5' src={'shared/academic-img.PNG'} height={400} data-aos="fade-left" />
               </Col>
             </Row>
 
@@ -56,7 +56,7 @@ const Desktop = () => {
             <Container fluid>
                 <Row>
                     <Col>
-                        <img src={'shared/12-c.JPG'} width={800} />
+                        <img src={'shared/12-c.jpg'} width={800} />
                     </Col>
                     <Col>
                         <p className='f-18 f-i f-300'>Saint Patrick’s</p>
@@ -96,7 +96,7 @@ const Desktop = () => {
                         </ul>
                     </Col>
                     <Col className='px-5'>
-                        <img src={'shared/sign.png'} width={700}  />
+                        <img src={'shared/sign.PNG'} width={700}  />
                     </Col>
                 </Row>
             </Container>
