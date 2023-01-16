@@ -5,6 +5,7 @@ import Aos from 'aos';
 import CountUp from 'react-countup';
 import ButtonCustom from '../../Shared/ButtonCustom';
 import { BiPhoneCall } from "react-icons/bi";
+import Router from 'next/router';
 
 const Desktop = () => {
   const [width, setWidth] = useState(0);
@@ -65,8 +66,8 @@ const Desktop = () => {
 
               <Col md={6}>
               <div data-aos="fade-down-left"></div>
-                <img className='mx-5' src={'service/service-1.JPG'} data-aos="fade-left" />
-                <img src={'service/service-2.JPG'} data-aos="fade-right"
+                <img className='mx-5' src={'service/service-1.jpg'} data-aos="fade-left" />
+                <img src={'service/service-2.jpg'} data-aos="fade-right"
                   style={{
                     position:'relative',
                     bottom:70
@@ -84,7 +85,7 @@ const Desktop = () => {
               <span className='mx-2'>+9231 3269 0927</span>
               </div>
               <div className="my-5">
-              <ButtonCustom  title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
+              <ButtonCustom onClick={()=>Router.push("/contact")} title={'Contact Us'} width={150} color1={'grey'} color2={'#231f28'} />
               </div>
               <hr/>
               </Col>

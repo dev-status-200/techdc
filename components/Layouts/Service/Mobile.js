@@ -65,8 +65,8 @@ const Mobile = () => {
 
               <Col md={6}>
               <div></div>
-                <img className='' src={'service/service-1.JPG'} style={{width:'70vw',position:'relative', left:50}}  />
-                <img src={'service/service-2.JPG'} 
+                <img className='' src={'service/service-1.jpg'} style={{width:'70vw',position:'relative', left:50}}  />
+                <img src={'service/service-2.jpg'} 
                   style={{
                     position:'relative',
                     bottom:30,
