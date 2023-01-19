@@ -68,7 +68,7 @@ const Mobile = () => {
               <Col xs={12}>
                 <div >
                   <div className=''>
-                  <img src={'/people/chairman-techdc.JPG'}   />
+                  <img src={'/people/chairman-techdc.jpg'}   />
                   </div>
                   <div className='blue mt-3'>
                     <strong>Mr. Brig. {"("}Retd{")"} Tariq Hussain Khan</strong>
