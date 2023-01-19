@@ -58,7 +58,7 @@ const Mobile = () => {
             <Container fluid>
                 <Row className='text-center'>
                     <Col>
-                        <img src={'shared/12-c.JPG'} width={300} />
+                        <img src={'shared/12-c.jpg'} width={300} />
                     </Col>
                     <Col>
                         <p className='f-18 f-i f-300'>Saint Patrick’s</p>
