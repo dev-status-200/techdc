@@ -9,6 +9,7 @@ import Aos from 'aos';
 import Cursor from "react-cursor-follow";
 import CountUp from 'react-countup';
 import Router from 'next/router';
+import Testimonials from '../../Shared/Testimonials';
 
 const Desktop = () => {
     const [width, setWidth] = useState(0);
@@ -62,7 +63,7 @@ const Desktop = () => {
     <img src="/home/expert.png" className='mt-3' height={80} />
     <div className='my-4'></div>
     <p className='grey'>We ensure your overall personality development. Now, your industrial training needs will be fulfilled here. From Soft Skills to technical skills, all are here</p>
-    <Link href={"/"} className="global-link">See More</Link>
+    <Link href={"/trainings"} className="global-link">See More</Link>
     </div>
 
     {/* ========== About Us Section ========== */}
@@ -252,15 +253,7 @@ const Desktop = () => {
         <div className='bg-highlight'>TESTIMONIALS</div>
         <h1 className=''>What People Say</h1>
         <Container className='px-5 my-5'>
-        <div style={{backgroundColor:'white', padding:40}} className="shadow mx-5">
-            <img src='/home/shafaq-testimonial.jpg' height={60} style={{borderRadius:100}} />
-
-            <div className='mb-3 mt-5 px-5'>
-                TechDC is doing an amazing job. Such a cause-oriented initiative. Their concern for skill development for the technical education graduates is commendable. A feel-good platform with young vibes and enthusiasm. All the Best Team TechDC for future endeavors.
-            </div>
-            <h4><strong>Shafaq Zehra</strong></h4>
-            <div>Former Asst. Manager,<br/> Learning & Strategic Projects,<br/> PharmEvi Pvt Ltd</div>
-        </div>
+        <Testimonials/>
         </Container>
     </div>
     </div>

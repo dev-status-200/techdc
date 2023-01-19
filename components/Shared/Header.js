@@ -48,7 +48,7 @@ const Header = () => {
     </div>
 
     <div className='mobile'>
-      <div className='blue-bg'>
+      <div className='blue-bg px-3'>
         <span className='white f-12'>info@tech-dc.org</span>
         <span className='white mt-1 f-12' style={{float:'right'}}>UAN: +92 313 2690 927</span>
       </div>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.1.5",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
     "eslint": "8.26.0",
@@ -22,6 +23,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "sass": "^1.56.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "swiper": "^8.4.6"
   }
 }

@@ -22,12 +22,21 @@ const Footer = () => {
         <div className='bgTop p-5'>
             <Container className='px-5 py-3'>
                 <Row>
-                    <Col className='px-3'>
+                    <Col className='px-2 mobile text-center mb-3'>
                         <h6 className='heading'>CONTACT INFO</h6>
                         <div className='my-4 mt-5 white'>
-                        <span className=''><FaPhoneAlt/></span><span className='fs-18 mx-3'>+41-21-634-05-05</span>
+                        <span className=''><FaPhoneAlt/></span><span className='fs-18 mx-2'>+41-21-634-05-05</span>
                         <div className='mb-4'> 
-                            <span className=''><MdEmail/></span><span className='fs-18 mx-3'>info@techdc.org</span>
+                            <span className=''><MdEmail/></span><span className='fs-18 mx-2'>info@techdc.org</span>
+                        </div>
+                        </div>
+                    </Col>
+                    <Col className='px-2 desktop'>
+                        <h6 className='heading'>CONTACT INFO</h6>
+                        <div className='my-4 mt-5 white'>
+                        <span className=''><FaPhoneAlt/></span><span className='fs-18 mx-2'>+41-21-634-05-05</span>
+                        <div className='mb-4'> 
+                            <span className=''><MdEmail/></span><span className='fs-18 mx-2'>info@techdc.org</span>
                         </div>
                         <div>
                             <p className='grey-txt fs-18'>

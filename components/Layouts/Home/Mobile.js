@@ -3,7 +3,8 @@ import { Row, Col, Container } from 'react-bootstrap';
 import Link from 'next/link';
 import Aos from 'aos';
 import CountUp from 'react-countup';
-import { AiOutlineCheckCircle } from 'react-icons/ai'
+import { AiOutlineCheckCircle } from 'react-icons/ai';
+import Testimonials from '../../Shared/Testimonials';
 
 const Mobile = () => {
 
@@ -207,15 +208,7 @@ const Mobile = () => {
         <div className='blue my-3'><strong>TESTIMONIALS</strong></div>
         <h1 className=''><strong>What People Say</strong></h1>
         <Container className=' my-4'>
-        <div style={{backgroundColor:'white'}} className="shadow py-5">
-            <img src='/home/shafaq-testimonial.jpg' height={60} style={{borderRadius:100}} />
-  
-            <div className='mb-3 mt-5 px-5'>
-                TechDC is doing an amazing job. Such a cause-oriented initiative. Their concern for skill development for the technical education graduates is commendable. A feel-good platform with young vibes and enthusiasm. All the Best Team TechDC for future endeavors.
-            </div>
-            <h4><strong>Shafaq Zehra</strong></h4>
-            <div>Former Asst. Manager,<br/> Learning & Strategic Projects,<br/> PharmEvi Pvt Ltd</div>
-        </div>
+          <Testimonials/>
         </Container>
       </div>
   

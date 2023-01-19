@@ -1,12 +1,23 @@
 import React, {useEffect, useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Cursor from "react-cursor-follow";
 import Aos from 'aos';
-import CountUp from 'react-countup';
+import { Modal } from 'antd';
 
 const Mobile = () => {
-  const [width, setWidth] = useState(0);
+
   const [load, setLoad] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [record, selectedRecord] = useState({});
+  const showModal = (x) => {
+    selectedRecord(x)
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
 
   useEffect(() => {
     Aos.init({duration:500});
@@ -115,17 +126,26 @@ const Mobile = () => {
             {
               data.map((x, i)=>{
                 return(
-                  <Col key={i} md={4} className="my-3 event-card text-center" data-aos="fade-in">
-                    <img src={`events/${x.image}.jpg`} height={260} />
+                  <Col key={i} xs={11} className="my-3 mx-3 py-3 event-card text-center" 
+                    data-aos="fade-in" style={{border:"1px solid #dad8da"}}
+                    onClick={()=>showModal(x)}
+                  >
+                    <img src={`events/${x.image}.jpg`} height={230} />
                     <div className='grey f-12 my-2'>{x.date}</div>
-                    <h5 className='f-700 my-3 card-heading'>{x.title}</h5>
-                    <p className='grey f-15 my-2 f-300'>{x.desc}</p>
+                    <h5 className='f-700 my-3 card-heading px-3'>{x.title}</h5>
                   </Col>
                 )
               })
             }
           </Row>
         </Container>
+        <Modal open={isModalOpen} onOk={handleOk} onCancel={handleCancel}
+        footer={false} centered closable={false}
+        >
+          <img className='mt-1' src={`events/${record.image}.jpg`} style={{width:'100%'}} />
+          <hr/>
+          <p className=''>{record.desc}</p>
+        </Modal>
         </div>
         </>
       }
